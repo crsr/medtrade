@@ -1,0 +1,4 @@
+filename = global_news
+description = ""
+modules = block webform addthis addthis_displays advanced_help aggregator blog ckeditor color colorbox comment contact contextual ctools dblog delta_blocks demo ds_ui field field_sql_storage field_ui file filter flexslider flexslider_fields flexslider_views flexslider_views_slideshow follow galleria getlocations getlocations_fields help image imce libraries list menu node number options panels panels_ipe panels_mini path php poll print quicktabs rate search shortcut similarterms site_map statistics styleswitcher system taxonomy taxonomy_display termstatus text tinynav token toolbar tracker trigger update user video_embed_facebook video_embed_field views_slideshow views_ui votingapi ds pathauto print_mail ds_extras print_pdf views panels_node page_manager
+version = 1.1
