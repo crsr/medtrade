@@ -101,10 +101,10 @@
   <div id="main-wrapper">
     <div id="main" class="clearfix">
     
-    <?php if ($page['showcase']): ?>
-      <?php print render($page['showcase']); ?>
-    <?php endif; ?>
-    
+    <?php /*if ($page['showcase']): */?><!--
+      <?php /*print render($page['showcase']); */?>
+    --><?php /*endif; */?>
+
     <?php if ($page['maintop']): ?>
       <?php print render($page['maintop']); ?>
     <?php endif; ?>

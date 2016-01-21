@@ -37,5 +37,14 @@
 #block-menu-menu-extra-menu {float:left;width:70%;margin:0;padding:0}
 
 .region-maintop, .region-above-content{margin: 20px 0 20px 0;}
+.region-maintop #block-views-latest-headlines-block{
+    display:none;
+}
+#flexslider-3 .flex-direction-nav
+{display:none !important;}
+.view-editor-s-choice .flexslider#flexslider-3{padding:0 !important;}
+.view-editor-s-choice ul.slides li {
+    margin-right: 40px;
+}
 #block-quicktabs-maintop{width:440px; float:right;}
 #block-views-news-slider-block{}

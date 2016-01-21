@@ -78,7 +78,6 @@ a {
  }
 
  .region-maintop, .region-above-content {
- 	background: url(../images/bg-line.gif) bottom repeat-x;
  	overflow: hidden;
  }
 
@@ -1247,7 +1246,7 @@ tr.odd, tr.even {
 
 .view-editor-s-choice ul.slides li {
 	background: #ebebeb;
-	width: 300px !important;
+	width: 460px !important;
 	margin-right: 10px;
 	padding: 10px;
 	-moz-box-sizing:border-box;
