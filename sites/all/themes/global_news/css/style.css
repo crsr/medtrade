@@ -389,7 +389,6 @@ article.comment .content {
 }
 #contacts .contacts-map article.node{
 	padding-bottom: 0;
-	background: url(../images/bg-line.gif) bottom repeat-x;
 }
 
 /***Comments output***/
@@ -404,7 +403,6 @@ article.comment .submitted {
 }
 
 article.comment {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	padding:17px 0;
 	position: relative;
 }	
@@ -660,8 +658,7 @@ section.block {
 	section.block .content {
 		position: relative;	
 	}
-		section.block .content li { 
-			background:url(../images/bg-line.gif) bottom repeat-x;
+		section.block .content li {
 			padding:9px 0;
 			overflow:hidden;
 			line-height:18px;
@@ -706,7 +703,6 @@ section.block {
 	background-image:-moz-linear-gradient(left, #0072ff, #00c0ff); /* FF3.6 */
 	background-image:-ms-linear-gradient(left, #0072ff, #00c0ff); /* IE10 */
 	background-image:-o-linear-gradient(left, #0072ff, #00c0ff); /* Opera 11.10+ */
-	background-image:-webkit-gradient(linear, left, right, from(#0072ff), to(#00c0ff)); /* Saf4+, Chrome */
 	background-image:-webkit-linear-gradient(left, #0072ff, #00c0ff); /* Chrome 10+, Saf5.1+ */
 	background-image:linear-gradient(left, #0072ff, #00c0ff);
 }
@@ -855,7 +851,6 @@ section.block {
 	width: 138px;
 }
 	.follow-link-wrapper {
-		background: url(../images/bg-line.gif) bottom repeat-x;
 		padding: 7px 0 8px;
 	}
 	a.follow-link {
@@ -1450,7 +1445,6 @@ tr.odd, tr.even {
 }
 
 #block-views-opinions-block .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	overflow: hidden;
 	padding: 12px 0 9px;
 }
@@ -1603,7 +1597,6 @@ tr.odd, tr.even {
 }
 	
 	.view-world-news .views-row {
-		background: url(../images/bg-line.gif) bottom repeat-x;
 		overflow: hidden;
 		padding: 0 0 5px 0;
 		margin-bottom: 8px;
@@ -1650,12 +1643,11 @@ tr.odd, tr.even {
 	}
 
 #block-views-u-s-news-block h2 {
-	padding-bottom: : 10px;
+	padding-bottom: 10px;
 	margin-bottom: 13px;
 }
 
 .view-u-s-news .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	overflow: hidden;
 	padding: 0 0 10px 0;
 	margin-bottom: 8px;
@@ -1686,7 +1678,6 @@ tr.odd, tr.even {
 	.view-tags .item-list ul { margin: 0;}
 
 .view-popular-posts .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	padding: 0 50px 12px 0;
 	margin-bottom: 12px;
 	overflow: hidden;
@@ -1717,7 +1708,6 @@ tr.odd, tr.even {
 		}
 
 .view-comments .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
@@ -1797,7 +1787,6 @@ tr.odd, tr.even {
 
 /*****Related articles****/
 .field-name-related-articles {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	overflow: hidden;
 	padding: 20px 0 31px;
 }
@@ -1859,7 +1848,6 @@ tr.odd, tr.even {
 	}
 
 #block-block-2 {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	padding-bottom: 16px;
 	margin: 0 10px 10px 0;
 }
@@ -2033,7 +2021,6 @@ tr.odd, tr.even {
 }
 
 .view-archives li {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	margin: 0;
 	overflow: hidden;
 	padding: 9px 0 8px;
@@ -2050,7 +2037,6 @@ tr.odd, tr.even {
 	}
 
 .view-taxonomy-term-page .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	overflow: hidden;
 	padding-bottom: 12px;
 	margin-bottom: 12px;
@@ -2152,7 +2138,6 @@ tr.odd, tr.even {
 
 
 .view-gallery .views-row{
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	float: left;
 	padding-right: 26px;
 	margin-bottom: 12px;
@@ -2235,7 +2220,6 @@ tr.odd, tr.even {
 }
 
 .node-blog.node-teaser {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	margin-bottom: 12px;
 	padding-bottom: 10px;
 }	
@@ -2694,7 +2678,6 @@ ul.sitemap li ul {
 }
 
 .view-display-id-page_1 .views-row {
-	background: url(../images/bg-line.gif) bottom repeat-x;
 	overflow: hidden;
 	padding-bottom: 15px;
 	margin-bottom: 15px;

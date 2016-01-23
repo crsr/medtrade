@@ -54,14 +54,32 @@
 #footer {
     background: #242424;
     border-top: 0 none;
+    float: left;
+    padding:0;
+    width: 100%;
 }
-#footer .content{
-    width:100%;
-}
-.footerLogo{
-    background:url('sites/all/themes/global_news/images/footer_logo.png');
-    width:187px;
-    height:78px;
-    float:right;
-}
+#footer .region-footer{float:left; width:100%;}
+#block-menu-menu-footer-menu{background:#ebebeb; width:100%; color:#252525;}
+#block-menu-menu-footer-menu .menu li{background: none !important;}
+#footer .content{ width:970px;    position:relative;    margin:0 auto; padding:10px 0;}
+#footer .links-privacy-terms-wrapper{float:left; margin-top:20px; }
+#footer .links-privacy-terms-wrapper a{color:#fff; font-weight:normal; text-decoration:none;}
+#footer .content img{float: right;}
 
+/* Styles for the new blocks added */
+#block-views-healthcare-news-block{float:right;width:35%;}
+#block-views-healthcare-news-block .flex-direction-nav{display:none;}
+
+/* Styles specific - modified to theme */
+body#body{background:#f0f3f6;}
+#main-wrapper{width:100%; float:left;}
+.region-maintop{background: #fff; box-shadow:0 5px 10px rgba(0,0,0,0.5); padding:20px 0;}
+#main-wrapper .region-maintop,#main-wrapper .region-above-content/*,#main-wrapper #content*/{width:970px; margin:0 auto; position:relative;}
+#content .section{float: left;}
+#content .section .block{width:100%;}
+#block-views-news-slider-block{width:60%;}
+section.block h2, #block-views-editor-s-choice-block h2 {padding:10px 0; text-transform: none; font-size: 24px; color:#4d4e4e;}
+#block-views-healthcare-news-block h2{
+    background:url("/sites/all/themes/global_news/images/header-helthcare.png") no-repeat left top;
+}
+#block-views-editor-s-choice-block h2{ background:url("/sites/all/themes/global_news/images/header-pharma.png") no-repeat left top;}
