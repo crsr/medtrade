@@ -49,3 +49,19 @@
 #block-quicktabs-maintop{width:440px; float:right;}
 #block-views-news-slider-block{}
 /*Define the triggers*/
+
+
+#footer {
+    background: #242424;
+    border-top: 0 none;
+}
+#footer .content{
+    width:100%;
+}
+.footerLogo{
+    background:url('sites/all/themes/global_news/images/footer_logo.png');
+    width:187px;
+    height:78px;
+    float:right;
+}
+
