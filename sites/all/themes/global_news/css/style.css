@@ -131,7 +131,9 @@ a {
     border-bottom: 1px solid #fff;
     font-weight: bold;
   }
-
+#block-system-main-menu .dropdown-menu.show_children{
+	display:block;
+}
 #block-system-main-menu .dropdown-menu {
   display: none;
   width: 100%;
@@ -141,6 +143,7 @@ a {
   position: absolute;
   top: 45px;
   left: 0;
+  z-index:100;
 }
 	#block-system-main-menu .active .dropdown-menu {
 		display: block;

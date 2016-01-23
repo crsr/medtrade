@@ -42,7 +42,7 @@ function styleswitcher_block_view($delta) {
             ));
         }
         drupal_add_library('system', 'jquery.cookie', TRUE);
-        drupal_add_js('jQuery(document).ready(function () { Drupal.styleSwitcher.defaultStyle(); });', array('type' => 'inline'));
+        //drupal_add_js('jQuery(document).ready(function () { Drupal.styleSwitcher.defaultStyle(); });', array('type' => 'inline'));
         // Do we want the overlay and fade
         $styleswitcher_enable_overlay = variable_get('styleswitcher_enable_overlay', 1);
         drupal_add_js(array('styleSwitcher' => array('enableOverlay' => $styleswitcher_enable_overlay)), array('type' => 'setting', 'scope' => JS_DEFAULT));

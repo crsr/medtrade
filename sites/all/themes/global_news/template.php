@@ -5,6 +5,12 @@
  * Contains theme override functions and process & preprocess functions for global_news
  */
 
+//adding custom javascript file
+drupal_add_js(drupal_get_path('theme', 'global_news') . '/js/global.js', array(
+    'type' => 'file',
+    'group' => JS_THEME,
+));
+
 // Auto-rebuild the theme registry during theme development.
 if (theme_get_setting('global_news_clear_registry')) {
   // Rebuild .info data.
