@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'medtrade',
       'username' => 'root',
-      'password' => 'ASDcxz111',
+      'password' => 'catalina23',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
