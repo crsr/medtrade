@@ -105,10 +105,12 @@
       <?php /*print render($page['showcase']); */?>
     --><?php /*endif; */?>
 
-    <?php if ($page['maintop']): ?>
-      <?php print render($page['maintop']); ?>
-    <?php endif; ?>
-    
+    <div id="wrapper-maintop">
+      <?php if ($page['maintop']): ?>
+        <?php print render($page['maintop']); ?>
+      <?php endif; ?>
+    </div><!-- /#wrapper-maintop -->
+
     <?php if ($page['above_content']): ?>
       <?php print render($page['above_content']); ?>
     <?php endif; ?>
@@ -121,7 +123,8 @@
         </div><!-- /.section -->
       </aside><!-- /#sidebar-first -->
     <?php endif; ?>
-    
+
+    <div id="wrapper-content-sidebar-second">
       <div id="content" class="column" role="main">
         <div class="section">
         
@@ -172,6 +175,7 @@
         <?php print render($page['mainbottom']); ?>
       <?php endif; ?>
 
+    </div><!-- /#wrapper-content-sidebar-second -->
     </div><!-- /#main -->
   </div><!-- /#main-wrapper -->
   

@@ -74,8 +74,8 @@
 /* Styles specific - modified to theme */
 body#body{background:#f0f3f6;}
 #main-wrapper{width:100%; float:left;}
-.region-maintop{background: #fff; box-shadow:0 5px 10px rgba(0,0,0,0.5); padding:20px 0;}
-#main-wrapper .region-maintop,#main-wrapper .region-above-content/*,#main-wrapper #content*/{width:970px; margin:0 auto; position:relative;}
+#wrapper-maintop{background: #fff; box-shadow:0 5px 10px rgba(0,0,0,0.5); padding:20px 0;}
+#main-wrapper .region-maintop,#main-wrapper .region-above-content,#wrapper-content-sidebar-second{width:970px; margin:0 auto; position:relative;}
 #content .section{float: left;}
 #content .section .block{width:100%;}
 #block-views-news-slider-block{width:60%;}
